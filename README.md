@@ -1,6 +1,6 @@
 # PBACL-WEB-TheMovieDb-API
 
-Link: https://limitmax.github.io/PBACL-WEB-TheMovieDb-API/index.html
+Link: https://limitmax.github.io/PABCL-WEB-TheMovieDb-API/
 
 View Depan:
 ![Screenshot (703)](https://user-images.githubusercontent.com/38920294/156530795-3c3f24e0-9012-418f-9991-cfa69c7ed4e0.png)
