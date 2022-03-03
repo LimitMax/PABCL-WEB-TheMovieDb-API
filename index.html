@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TMDB - PBACL</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="assets/Logo.jpg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Header Section -->
+      <nav-bar></nav-bar>
+      <!-- !Header Section -->
+
+      <!-- Content Section -->
+      <hero-section></hero-section>
+      <main>
+        <movie-section title="What's Popular" more-link="./movie.html?popular" movie-tag="popular"></movie-section>
+        <movie-section title="Top Rated" more-link="./movie.html?top_rated" movie-tag="top_rated"></movie-section>
+        <movie-section title="Upcoming" more-link="./movie.html?upcoming" movie-tag="upcoming"></movie-section>
+      </main>
+      <!-- !Content Section -->
+    </div>
+
+    <!-- Footer Section -->
+    <my-footer></my-footer>
+    <!-- !Footer Section -->
+
+    <script src="js/api-key.js"></script>
+    <script src="js/components/components.js"></script>
+    <script src="js/container/movieScroll.js"></script>
+    <script src="js/utils/util.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
